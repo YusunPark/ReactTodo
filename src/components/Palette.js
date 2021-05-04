@@ -11,10 +11,10 @@ class Palette extends Component {
       <div className="color_layer">
         <div className="colors">
           <div className="color">
-            <div className="color_box">bbbb</div>
-            <div className="color_box">aaaa</div>
-            <div className="color_box">aaaa</div>
-            <div className="color_box">aaaa</div>
+            <div className="color_box grey selected"></div>
+            <div className="color_box red selected"></div>
+            <div className="color_box green"></div>
+            <div className="color_box blue"></div>
           </div>
         </div>
       </div>

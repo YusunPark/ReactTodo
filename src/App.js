@@ -68,6 +68,10 @@ class App extends Component {
     });
   };
 
+  handleColor = (id) => {
+    
+  };
+
   render() {
     const { input, todos, colors } = this.state;
     const {

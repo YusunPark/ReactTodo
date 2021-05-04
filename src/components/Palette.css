@@ -2,8 +2,7 @@
 .color_layer {
   display: table;
   height: 4rem;
-  width: 100%;
- 
+  width: 100%; 
 }
 
 .colors {
@@ -19,9 +18,29 @@
 }
 
 .color_box {
-  width: 40px;
-  height: 40px;
-  background-color:yellowgreen;
+  width: 35px;
+  height: 35px;
   float: left;
   margin-right: 20px;
+  opacity: 0.5;
+}
+
+.grey {
+  background-color: #343a40;
+}
+
+.red {
+  background-color: #f03e3e;
+}
+  
+.green {
+  background-color: #12b886;
+}   
+
+.blue {
+  background-color: #228ae6;
+}
+
+.selected {  
+  opacity: 1;
 }
